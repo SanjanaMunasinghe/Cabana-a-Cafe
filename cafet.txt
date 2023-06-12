@@ -1,0 +1,111 @@
+
+		* {
+			box-sizing: border-box;
+			margin: 10;
+			padding: 10;
+			font-family:"Lucida Console", "Courier New", monospace
+              
+		}
+		body {
+			background-color: pink;
+            
+           
+		}
+		header {
+     			background-color: lightblue;
+			color: #ce2828
+			padding: 20px;
+			text-align: center;
+                
+		}
+		.logo {
+			font-size: 1.5rem;
+			font-weight: bold;
+			margin-bottom: 10px;
+		}
+		nav {
+			margin-bottom: 20px;
+		}
+		nav ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+		nav ul li {
+			display: inline;
+			margin-right: 50px;
+		}
+		nav ul li a {
+			color: BROWN;
+			text-decoration: none;
+			transition: all 0.1s ease-in-out;
+		}
+		nav ul li a:hover {
+			color: RED;
+		}
+		.main-section {
+			padding: 50px;
+		}
+		.heading {
+			font-size: 5rem;
+			margin-bottom: 100px;
+			text-align: center;
+			color:#0e1b59 ;
+		}
+		.description {
+			font-size: 1.2rem;
+			line-height: 1.6;
+			margin-bottom: 30px;
+			color: #333;
+
+            }
+		.section {
+			margin-bottom: 40px;
+		}
+		.section h3 {
+			font-size: 1.5rem;
+			margin-bottom: 10px;
+			color: #333;
+		}
+		.section p {
+			font-size: 1.2rem;
+			margin-bottom: 10px;
+			color: #333;
+		}
+		.sidebar {
+			width: 200px;
+			padding: 20px;
+			background-color: lightblue;
+               
+		}
+		.sidebar ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+		.sidebar ul li {
+			margin-bottom: 10px;
+		}
+		.sidebar ul li a {
+			color: #333;
+			text-decoration: none;
+		}
+		.sidebar ul li a:hover {
+			text-decoration: underline;
+		}
+		.footer {
+			background-color: #333;
+			color:#bca592;
+			padding: 20px;
+			text-align: center;
+		}
+		.social-icons {
+			margin-bottom: 20px;
+		}
+		.social-icons a {
+			color: #fff;
+			font-size: 1.2rem;
+			margin-right: 10px;
+			text-decoration: none;
+		}
+	
